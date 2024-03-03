@@ -1,0 +1,69 @@
+/* Estructura del sitio */
+
+header {
+	height: 152px;
+	background-color: #ff3b3c;
+}
+
+.container {
+	display: flex;
+	flex-direction: column;
+}
+
+.search {
+	flex: 1;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+}
+
+.form {
+	/* flex:1; */
+	box-sizing: border-box;
+	display: flex;
+	justify-content: center;
+}
+
+.form input {
+	height: 62px;
+	border-radius: 14px;
+	border: none;
+	width: 505px;
+	padding: 20px;
+	box-sizing: border-box;
+}
+
+.form input:focus {
+	outline: none;
+}
+
+.social ul {
+	display: flex;
+	justify-content: flex-end;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+.social ul li {
+	padding: 0 10px;
+}
+
+.cartLogo {
+	width: 26px;
+}
+
+.nav {
+	padding: 10px 0;
+	margin-bottom: 7px;
+}
+
+.nav ul {
+	display: flex;
+	justify-content: space-between;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}

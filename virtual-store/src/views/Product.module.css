@@ -1,0 +1,13 @@
+/* Product Page */
+
+main {
+	height: auto;
+	margin: 100px 0;
+}
+
+.columns {
+	flex: 1;
+	display: flex;
+	justify-content: space-between;
+	gap: 20px;
+}

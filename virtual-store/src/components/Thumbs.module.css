@@ -1,0 +1,28 @@
+.productImagesBlock {
+	/* Definimos flex 1 las 3 columnas para que ocupen el mismo espacio*/
+	flex: 1;
+}
+
+.thumbnailContainer {
+	/* Definimos flex 1 las 3 columnas para que ocupen el mismo espacio*/
+	max-width: 100%;
+	overflow: hidden;
+}
+
+.thumbnailContainer img {
+	/* Definimos flex 1 las 3 columnas para que ocupen el mismo espacio*/
+	max-width: 100%;
+	overflow: hidden;
+	object-position: center center;
+	object-fit: contain;
+	height: 50px;
+	cursor: pointer;
+}
+
+.selectedThumbnail {
+	width: 350px;
+}
+
+.thumbnailContainer .active img {
+	height: 100%;
+}

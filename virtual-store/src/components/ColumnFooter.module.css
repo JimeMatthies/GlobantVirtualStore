@@ -1,0 +1,18 @@
+.col ul {
+	list-style-type: none;
+	padding: 0;
+}
+
+.col ul li {
+	padding: 5px 0;
+}
+
+.col ul li a {
+	color: white;
+	text-decoration: none;
+}
+
+.colMain {
+	font-weight: bold;
+	padding-bottom: 20px;
+}

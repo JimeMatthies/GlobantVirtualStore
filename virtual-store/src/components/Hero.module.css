@@ -1,0 +1,29 @@
+/* Hero section */
+
+.section {
+	height: 340px;
+	background: url('./assets/hero_bg.png');
+	background-size: cover;
+	background-position: top center;
+}
+
+.container {
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+}
+
+.heroTitle span {
+	display: block;
+	color: white;
+	font-weight: 700;
+}
+
+.heroTitle span:first-child {
+	font-size: 40px;
+}
+
+.heroTitle span:last-child {
+	font-size: 100px;
+	line-height: 80px;
+}
